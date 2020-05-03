@@ -2,10 +2,12 @@
 
 int main(){
 
-	int a, b;
+	double a, b;
 
-	scanf("%d %d", &a, &b);
-	printf("%d", a/b);
+	scanf("%lf %lf", &a, &b);
+
+	if(a > 0 && b > 0)
+		printf("%.9lf", a/b);
 
 	return 0;
 }
