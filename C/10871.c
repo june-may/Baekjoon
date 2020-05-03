@@ -5,19 +5,17 @@
 int main(){
 
 	int n, x;
-	int arr[MAX];
+	int number;
 
 	scanf("%d %d", &n, &x);
-	
-	for(int i = 0; i < n - 1 ; i++ )
-		scanf("%d ", &arr[i]);
 
-	for(int i = 0 ; i < n - 1 ; i ++){
-		if(arr[i] < x)
-			printf("%d ", arr[i]);
+	for(int i = 0 ; i < n ; i ++){
+		
+		scanf("%d", &number);
+		
+		if(number < x)
+			printf("%d ", number);
 	}
-
-	printf("\n");
 
 	return 0;
 }
