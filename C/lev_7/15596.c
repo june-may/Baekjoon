@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define MAX 100
 
-int sum(int a[], int N);
+int add(int a[], int N);
 
 int main(){
 	
@@ -13,10 +13,10 @@ int main(){
 	for(int i = 0 ; i < n ; i++)
 		scanf("%d", &a[i]);
 
-	printf("%d\n", sum(a, n));
+	printf("%d\n", add(a, n));
 }
 
-int sum (int a[], int N){
+int add (int a[], int N){
 	
 	int total=0;
 
