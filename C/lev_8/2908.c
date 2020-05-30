@@ -14,10 +14,11 @@ int main(){
 		re_str2[i] = str2[j];
 		j--;
 	}
-	
+
 	if(atoi(re_str1) > atoi(re_str2))
 		printf("%s\n", re_str1);
 	else
 		printf("%s\n", re_str2);
-	
+
 }
+
