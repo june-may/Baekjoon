@@ -10,6 +10,9 @@ int main(){
 
 	if(N < 3 || N > 100) return 0;
 	if(M < 10 || M > 300000) return 0;
+	
+	for(int i = 0 ; i < N ; i++)
+		scanf("%d", &num[i]);
 
 	for(int i = 0 ; i < N ; i++){
 		for(int j = i + 1; j < N ; j++){
