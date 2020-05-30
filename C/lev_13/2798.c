@@ -5,6 +5,8 @@ int main(){
 	int N, M;
 	int num[100];
 	int max = 0;
+	
+	scanf("%d %d", &N, &M);
 
 	if(N < 3 || N > 100) return 0;
 	if(M < 10 || M > 300000) return 0;
