@@ -11,15 +11,18 @@ int main(){
 	for(int i = 0 ; i < num ; i ++)
 		scanf("%d", &arr[i]);
 
-	for(int i = 0 ; i < num ; i ++){
-		for(int j = i ; j < num-1 ; j++){
-			if(arr[j] < arr[j+1]){
-				int tmp = arr[j];
-				arr[j] = arr[j+1];
-				arr[j+1] = tmp;
-			}
+	for(int i = 1; i < num; i++){
+		int key = arr[i];
+		int j = i - 1;
+
+		while(j >= 0 && key > arr[j]){
+			arr[j+1] = arr[j];
+			j = j +1;
 		}
+		arr[j+1] = key;
+	
 	}
+
 
 	for(int i = 0 ; i < num ; i ++)
 		printf("%d\n", arr[i]);
