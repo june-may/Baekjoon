@@ -7,7 +7,7 @@ int main(){
 	int check = 1;
 
 	while(check){
-		scanf("%d", $num);
+		scanf("%d", &num);
 
 		for( i = 0 ; i < num ; i++){
 			for(j = i ; j < num ; j++)
@@ -15,6 +15,7 @@ int main(){
 			printf("\n");
 		}
 
-		scanf("continue? (Yes = 1 / No = 0) ", &check);
+		printf("continue? (Yes = 1 / No = 0) ");
+		scanf("%d", &check);
 	}
 }
