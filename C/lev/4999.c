@@ -11,8 +11,8 @@ int main(){
 	scanf("%s", pt);
 	
 	if(strcmp(dr, pt) == 0) 
-		printf("Yes\n");
+		printf("go	\n");
 	else
-		printf("No\n");
+		printf("no	\n");
 }
 
