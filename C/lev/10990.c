@@ -9,12 +9,15 @@ int main(){
 	
 	for(int i = 0 ; i < num ; i ++){
 		
-		for(int j = 0 ; j < i;j++)
+		for(int j = i ; j < num-1 ; j++)
 			printf(" ");
 		printf("*");
-		for(int k = 0 ; k < (i*2)-1; k++)
-			printf(" ");
 
-		
+		if(i!=0){
+			for(int k = 0 ; k < (i*2)-1; k++)
+				printf(" ");
+			printf("*");
+		}
+		printf("\n");
 	}
 }
