@@ -9,7 +9,9 @@ int main(){
 
 	scanf("%d %d %d", &h, &m, &s);
 	scanf("%d", &clock);
-	
+		
+	if(clock > 5000000) return 0;
+
 	s += clock;
 	m += s / 60 ;
 	h += m / 60;
