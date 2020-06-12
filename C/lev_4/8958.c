@@ -10,8 +10,8 @@ int main(){
 	scanf("%d ", &num);
 
 	for(i = 0 ; i < num ; i++){
-		score = 1;
 		sum = 0;
+		score = 1;
 		scanf("%s", OX);
 
 		for(j = 0 ; j < strlen(OX); j++){
