@@ -2,6 +2,8 @@
 
 int main(){
 
-printf("\n");
+	printf("10/14\n");
+
+	return 0;
 
 }
