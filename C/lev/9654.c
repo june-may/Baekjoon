@@ -7,6 +7,6 @@ int main(){
 	printf("J-Type 327\t\tLight Combat\tUnlimited\t1\n");
 	printf("NX Cruiser\t\tMedium Fighter Limited\t\t18\n");
 	printf("N1 Starfighter\t\tMedium Fighter Unlimited\t25\n");
-	printf("Royal Cruiser\tLight Combat\t\tLimited\t\t4\n");
+	printf("Royal Cruiser\t\tLight Combat\tLimited\t\t4\n");
 
 }
