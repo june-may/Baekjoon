@@ -3,9 +3,11 @@
 
 int main(){
 
-	int num1, num2;
+	long long  num1, num2;
+	long long sum = 0;
 
-	scanf("%d %d", &num1 , &num2);
-	printf("%d\n",abs(num1 - num2) );
+	scanf("%lld %lld", &num1 , &num2);
+	sum = llabs(num1 - num2);
+	printf("%lld\n",sum);
 
 }
