@@ -2,5 +2,5 @@
 
 int main(){
 
-	printf("\n");
+	printf("고려대학교\n");
 }
